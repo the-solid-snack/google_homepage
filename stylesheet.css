@@ -1,10 +1,74 @@
+
 .centre-stage {
   position: absolute;
   margin: auto;
   top: 0;
   right: 0;
-  bottom: 0;
+  bottom: 35%;
   left: 0;
+  width: 300px;
+  height: 150px;
+/*  background-color: blue; */
+}
+
+#img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
   width: 272px;
-  height: 200px;
+}
+
+input {
+  width:284px;
+}
+
+input:hover {
+  box-shadow: 0px 0px 8px #D3D3D3;
+}
+
+.search-form {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 20px;
+  width: 300px; 
+  /* background-color: red; */
+}
+
+.buttons{
+  width:272px;
+  margin-left: 5%;
+  margin-right: 1%;
+  display: inline;
+}
+
+.search:hover, 
+  .lucky:hover {
+  color: black;
+  border: 1px solid DarkGray;
+}
+
+.search, 
+  .lucky {
+  background-color: #F5F5F5;
+  border-radius: 4px;
+  border-width: 0px;
+  font-size: 14px;
+  font-weight: light;
+  color: SlateGray;
+  margin-top: 15px;
+  width: auto;
+  padding: 5px 10px;
+  text-align: center;
+}
+
+span.a {
+  display: inline-block;
+  width: 27px;
+  height: 10px;  
+/*  background-color: yellow; */
+}
+
+.top-links {
+  color: DarkGrey;
+  
 }
